@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Checkout Disclaimer
+ *
+ * @package Writerzwall_Checkoutdisclaimer
+ * @author Rajesh Patra <rajpatra220@gmail.com>
+ * @copyright 2020-2030 Writerzwall
+ * @license OSL-3.0, AFL-3.0
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Writerzwall_Checkoutdisclaimer" setup_version="1.0.0" schema_version="1.0.0">
+        <sequence>
+            <module name="Magento_CheckoutAgreements"/>
+        </sequence>
+    </module>
+</config>
