@@ -19,6 +19,7 @@ This module will add the feature to add a disclaimer section in the checkout in 
 
 * [if needed] re-compile code and re-deploy static view files:
 >`$> php bin/magento setup:di:compile`
+
 >`$> php bin/magento setup:static-content:deploy`
 
 
